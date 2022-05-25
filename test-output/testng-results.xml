@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-12T17:32:41 EDT" name="Suite1" finished-at="2022-05-12T17:32:58 EDT" duration-ms="16384">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.amazon.runners.AmazonTestRunner@56de5251]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-05-12T17:32:41 EDT" name="com.amazon.runners" finished-at="2022-05-12T17:32:58 EDT" duration-ms="16384">
+      <class name="com.amazon.runners.AmazonTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.amazon.runners.AmazonTestRunner@56de5251]" started-at="2022-05-12T17:32:41 EDT" name="setUpClass" finished-at="2022-05-12T17:32:41 EDT" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1744a475]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.amazon.runners.AmazonTestRunner@56de5251]" started-at="2022-05-12T17:32:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-12T17:32:58 EDT" duration-ms="16144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["iPhone 13 Pro"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Produck Search in Amazon]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.amazon.runners.AmazonTestRunner@56de5251]" started-at="2022-05-12T17:32:58 EDT" name="tearDownClass" finished-at="2022-05-12T17:32:58 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.amazon.runners.AmazonTestRunner -->
+    </test> <!-- com.amazon.runners -->
+  </suite> <!-- Suite1 -->
+</testng-results>
